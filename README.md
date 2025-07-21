@@ -63,21 +63,21 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
+```
 
-🔐 Environment Setup
+## 🤝 Contributing
+We welcome contributions that help amplify Africa’s voice. Please fork the repo, create a feature branch, and submit a pull request.
+## 🔐 Environment Setup
 Update your .env file with:
 - DB_DATABASE, DB_USERNAME, DB_PASSWORD
 - APP_URL, MAIL_* settings
 - Any third-party API keys (e.g., newsletter, analytics)
-📁 Key Features
+## 📁 Key Features
 - Dynamic content management for events, reports, and initiatives
 - AAN Data Hub integration for curated insights
 - Newsletter signup and stakeholder engagement tools
 - Admin dashboard for content moderation
 - Multilingual support (optional)
 
-🤝 Contributing
-We welcome contributions that help amplify Africa’s voice. Please fork the repo, create a feature branch, and submit a pull request.
-
-📄 License
+## 📄 License
 This project is open-source under the MIT License.
