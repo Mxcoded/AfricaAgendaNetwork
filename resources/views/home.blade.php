@@ -5,6 +5,41 @@
     @include('includes.hero')
     @include('includes.partnership')
     @include('includes.mission')
+    @include('includes.our-presence')
+    @include('includes.featured-initiatives')
+    @include('includes.our-impact')
+    @include('includes.events-news-insights')
+    @include('includes.get-in-touch')
+  
+
+    {{-- Uncomment the following sections if needed --}}
+    {{-- @include('includes.stats') --}}
+    {{-- @include('includes.events') --}}
+    {{-- @include('includes.news') --}}
+
+    {{-- Additional sections can be added here as needed --}}
+
+    {{-- Uncomment the following sections if needed --}}
+    {{-- @include('includes.stats') --}}
+    {{-- @include('includes.events') --}}
+    {{-- @include('includes.news') --}}
+
+    {{-- Additional sections can be added here as needed --}}
+
+    {{-- Uncomment the following sections if needed --}}
+    {{-- @include('includes.stats') --}}
+    {{-- @include('includes.events') --}}
+    {{-- @include('includes.news') --}}
+
+    {{-- Additional sections can be added here as needed --}}
+    {{-- <!-- Stats Section -->
+
+    {{-- Uncomment the following sections if needed --}}
+    {{-- @include('includes.stats') --}}
+    {{-- @include('includes.events') --}}
+    {{-- @include('includes.news') --}}
+
+    {{-- Additional sections can be added here as needed --}}
     {{-- <!-- Stats Section -->
     <section class="stats-section text-center">
         <div class="container">

@@ -11,4 +11,9 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    // Privacy Policy Page
+    public function privacyPolicy()
+    {
+        return view('privacy-policy');
+    }
 }
