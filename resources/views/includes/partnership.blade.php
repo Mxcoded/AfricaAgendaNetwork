@@ -1,4 +1,4 @@
-<section class="partnerships-section py-5">
+<section class="partnerships-section py-5" id="learn-more" style="background-color: #dce4db;">
     <div class="container-fluid">
         <h2 class="text-center mb-4 fw-bold" style="color: #1a3c34;">Strategic Partners & Clients</h2>
         <p class="text-center mb-5">We collaborate with leading organizations to drive sustainable development and impactful change across Africa.</p>
@@ -51,7 +51,7 @@
             </div>
         </div>
         <div class="text-center mt-5">
-            <a href="/partners" class="btn btn-outline-primary">View All Partners</a>
+            <a href="/partners" class="btn btn-primary" >View All Partners</a>
         </div>
     </div>
 <img src="{{ asset('assets/img/image0.avif') }}" alt="Partnership Background" class="img-fluid w-100 mt-4" style="max-height: 700px; object-fit: cover;">

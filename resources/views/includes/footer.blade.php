@@ -22,7 +22,7 @@ Banjul, The Gambia
                 </ul>
             </div>
             <div class="col-md-3">
-                <h5 style="color: #ecf2f1;">Sitemap</h5>
+                <h3 style="color: #ecf2f1;">Sitemap</h3>
                 <ul class="list-unstyled">
                     <li><a href="/mission-vision" class="text-decoration-none text-muted">Mission & Vision</a></li>
                     <li><a href="/our-presence" class="text-decoration-none text-muted">Our Presence</a></li>
@@ -32,7 +32,7 @@ Banjul, The Gambia
                 </ul>
             </div>
             <div class="col-md-3">
-                <h5 style="color: #e9efed;">Connect With Us</h5>
+                <h3 style="color: #e9efed;">Connect With Us</h3>
                 <div class="social-links">
                     <a href="https://www.facebook.com/africaagendanetwork/" class="text-decoration-none me-3"><i class="bi bi-facebook" style="font-size: 1.5rem; color: #f3f4e6;"></i></a>
                     <a href="https://www.instagram.com/africaagendanetwork" class="text-decoration-none me-3"><i class="bi bi-instagram" style="font-size: 1.5rem; color: #f3f4e6;"></i></a>

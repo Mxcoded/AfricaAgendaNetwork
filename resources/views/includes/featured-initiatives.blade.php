@@ -1,4 +1,4 @@
-<section class="featured-initiatives-section py-5">
+<section class="featured-initiatives-section py-5" >
     <div class="container-fluid">
         <div class="row g-4 align-items-center">
             <div class="col-md-4">
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="text-center mt-5">
-            <a href="/services" class="btn btn-custom">Our Services</a>
+            <a href="/services" class="btn btn-primary">Our Services</a>
         </div>
     </div>
 </section>

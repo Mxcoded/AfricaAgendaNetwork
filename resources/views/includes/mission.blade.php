@@ -1,4 +1,4 @@
-<section class="mission-vision-section py-5">
+<section class="mission-vision-section py-5" style="background-color: #dce4db;">
     <div class="container-fluid">
         <h2 class="text-center mb-5 fw-bold" style="color: #1a3c34;">Mission & Vision</h2>
         <div class="row g-4">

@@ -1,4 +1,4 @@
-<section class="our-presence-section py-5">
+<section class="our-presence-section py-5" style="background-color: #dce4db;">
     <div class="container-fluid">
         <div class="row g-4 align-items-center">
             <div class="col-md-6">

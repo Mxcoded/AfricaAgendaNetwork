@@ -1,6 +1,6 @@
 <!-- resources/views/home.blade.php -->
 @extends('layouts.app')
-
+@section('title', 'HOME')
 @section('content')
     @include('includes.hero')
     @include('includes.partnership')
