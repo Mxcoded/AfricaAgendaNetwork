@@ -24,7 +24,7 @@ class HomeController extends Controller
     // Gallery Page
     public function gallery()
     {
-        return view('gallery');
+        return view('pages.newsandinsights');
     }
     // Data Hub Page
     public function dataHub()
@@ -42,11 +42,6 @@ class HomeController extends Controller
         return view('pages.privacy_policy');
     }
 
-
-    public function NewsAndInSights()
-    {
-        return view('newsandinsights');
-    }
     public function newsletterSubscribe(Request $request)
     {
         // Handle the newsletter subscription logic here
