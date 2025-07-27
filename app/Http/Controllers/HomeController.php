@@ -41,4 +41,16 @@ class HomeController extends Controller
     {
         return view('pages.privacy_policy');
     }
+
+    // About Page
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function NewsAndInSights()
+    {
+        return view('newsandinsights');
+    }
 }

@@ -11,6 +11,7 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::post('/contact-submit', [HomeController::class, 'contactSubmit'])->name('contact.submit');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy-policy');
 Route::post('newsletter/subscribe', [HomeController::class, 'newsletterSubscribe'])->name('newsletter.subscribe');
-// Route::get('/resources', [HomeController::class, 'resources'])->name('resources');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/newsandinsights', [HomeController::class, 'NewsAndInSights'])->name('newsandinsights');
 // Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 // Route::post('/contact', [HomeController::class, 'contactSubmit'])->name('contact.submit');

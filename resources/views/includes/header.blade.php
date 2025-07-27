@@ -1,5 +1,5 @@
 <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" style="color: #2d632d;">
             <div class="container">
                 <a class="navbar-brand" href="/">
                     <img src="{{ asset('assets/img/africa agenda logo.avif') }}" alt="Africa Agenda Network Logo">
@@ -8,7 +8,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav" >
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a>
