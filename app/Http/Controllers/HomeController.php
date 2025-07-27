@@ -42,15 +42,16 @@ class HomeController extends Controller
         return view('pages.privacy_policy');
     }
 
-    // About Page
-
-    public function about()
-    {
-        return view('about');
-    }
 
     public function NewsAndInSights()
     {
         return view('newsandinsights');
     }
+    public function newsletterSubscribe(Request $request)
+    {
+        // Handle the newsletter subscription logic here
+        // For example, validate the request and save the email to the database
+
+        return response()->json(['message' => 'Subscription successful!']);
+    }   
 }
