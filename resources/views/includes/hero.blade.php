@@ -1,4 +1,4 @@
-<section class="hero-section" style="background-image: url('{{ asset('assets/img/IMG_5393_edited.avif') }}'); background-size: cover; background-position: center; height: 860px; position: relative; display: flex; align-items: center; justify-content: center; color: #fff; text-align: center;">
+<section class="hero-section">
     <div class="container">
         <div class="hero-content">
             <h1 class="display-4 fw-bold mb-3">Welcome to Africa Agenda Network</h1>

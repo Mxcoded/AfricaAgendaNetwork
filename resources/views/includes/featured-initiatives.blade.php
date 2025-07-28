@@ -1,4 +1,4 @@
-<section class="featured-initiatives-section py-5" >
+<section class="featured-initiatives-section py-5" id="featured-initiatives">
     <div class="container-fluid">
         <div class="row g-4 align-items-center">
             <div class="col-md-4">

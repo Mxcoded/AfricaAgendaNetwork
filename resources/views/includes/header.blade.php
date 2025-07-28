@@ -1,6 +1,6 @@
 <header>
         <nav class="navbar navbar-expand-lg" style="color: #2d632d;">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="/">
                     <img src="{{ asset('assets/img/africa agenda logo.avif') }}" alt="Africa Agenda Network Logo">
                 </a>
@@ -26,7 +26,7 @@
                             <a class="nav-link {{ request()->routeIs('data-hub') ? 'active' : '' }}" href="{{ route('data-hub') }}">AAN DATA HUB</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
+                            <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact Us</a>
                         </li>
                     </ul>
                 </div>

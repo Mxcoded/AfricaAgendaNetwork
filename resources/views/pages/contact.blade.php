@@ -3,6 +3,7 @@
 @section('title', 'CONTACT US')
 
 @section('content')
+@include('includes.get-in-touch')
 <div class="container-fluid py-5" style="background-color: #dce4db;">
     <h1 class="text-center mb-4" style="color: #1a3c34;">Connect with Us!</h1>
     <p class="text-center mb-5">Become part of the Africa Agenda Network community today!</p>

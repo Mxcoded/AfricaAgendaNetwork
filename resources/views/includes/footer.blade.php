@@ -24,11 +24,11 @@ Banjul, The Gambia
             <div class="col-md-3">
                 <h3 style="color: #ecf2f1;">Sitemap</h3>
                 <ul class="list-unstyled">
-                    <li><a href="/mission-vision" class="text-decoration-none text-muted">Mission & Vision</a></li>
-                    <li><a href="/our-presence" class="text-decoration-none text-muted">Our Presence</a></li>
-                    <li><a href="/featured-initiatives" class="text-decoration-none text-muted">Featured Initiatives</a></li>
-                    <li><a href="/our-impact" class="text-decoration-none text-muted">Our Impact</a></li>
-                    <li><a href="/events-news-insights" class="text-decoration-none text-muted">Events, News & Insights</a></li>
+                    <li><a href="{{url('/')}}#mission-vision" class="text-decoration-none text-muted">Mission & Vision</a></li>
+                    <li><a href="{{url('/')}}#our-presence" class="text-decoration-none text-muted">Our Presence</a></li>
+                    <li><a href="{{url('/')}}#featured-initiatives" class="text-decoration-none text-muted">Featured Initiatives</a></li>
+                    <li><a href="{{url('/')}}#our-impact" class="text-decoration-none text-muted">Our Impact</a></li>
+                    <li><a href="{{url('/')}}#events-news-insights" class="text-decoration-none text-muted">Events, News & Insights</a></li>
                 </ul>
             </div>
             <div class="col-md-3">

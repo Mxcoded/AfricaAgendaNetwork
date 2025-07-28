@@ -14,12 +14,12 @@ class HomeController extends Controller
     // About Page
     public function about()
     {
-        return view('about');
+        return view('pages.about');
     }
     // Our Services Page
     public function ourServices()
     {
-        return view('our-services');
+        return view('pages.our-services');
     }
     // Gallery Page
     public function gallery()

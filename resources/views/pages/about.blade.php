@@ -16,12 +16,12 @@
         coupled with marketing approaches that amplify visibility and drive demand.
     </p>
     <button class="mt-5" style="background-color: #d09c47; color: white; border-radius: 24px; padding: 10px 20px; border: none;">
-        <a href="#" class="text-black text-1xl pr-4 pl-4" style="text-decoration: none">Learn more...</a>
+        <a href="#mission" class="btn btn-primary" style="text-decoration: none">Learn more...</a>
     </button>
 </section>
 <section class="mission-vision py-5 ps-5 pe-5" style="background-color: #2d632d;">
     <div class="row text-white pb-5">
-        <div class="col" style="">
+        <div class="col" style="" id="mission">
             <h1 class="text-3xl font-bold text-white mb-5">Our Mission</h1>
             <p class="fw-lighter fs-5" style="margin-right: 11.5rem;">
                 Our mission is to create a formidable network to develop an exceptional platform showcasing Africa’s innovative leadership, 
@@ -30,7 +30,7 @@
                 growth and prosperity through collaboration and partnerships.
             </p>
         </div>
-        <div class="col" style="background-image: url('../assets/img/IMG_about.avif'); background-size: cover; background-position: center; height: 350px"></div>
+        <div class="col animated-logo" style="background-image: url('../assets/img/IMG_about.avif'); background-size: cover; background-position: center; height: 500px"></div>
     </div>
     <div class=" row text-white pt-5">
         <div class="col ">
@@ -62,44 +62,12 @@
         </div>
     </div>
 </section>
-<section class="p-5" style="background-color: #D09C47; color: white;">
-    <div class="row justify-content-between align-items-center">
-                <div class="col">
-            <h1 class="py-5">Expert Solutions</h1>
-        <p class="ms-auto">AAN specializes in delivering fully integrated international marketing solutions</p>
-</div>
-        <div class="col pt-5">
 
-                <p class="p-5 pt-5 m-5"> AAN has a strong presence across Africa, the UK, the US, Turkey, and the Middle East. 
-                    With our international reach, we bridge the gap between governments, development partners, private sector organizations, and global markets.</p>
-</div>
-    </div>
-    
-</section>
-<section class="py-5" style="color: #2d632d;">
-    <div class="row  align-items-center p-5">
-        <div class="col-md-4 p-5 pt-0">
-            <h1 class="border-top border-success border-2 pt-3 pb-3">Global Branding and Marketing Solutions</h1>
-            <h1 class="border-top border-success border-2 pt-3 pb-3">High-level Event Planning</h1>
-            <h1 class="border-top border-success border-2 pt-3 pb-3">Trade and Investment Facilitation</h1>
-            <h1 class="border-top border-success border-2 pt-3 pb-3">High-profile Protocol Service</h1>
-            <h1 class="border-top border-success border-2 pt-3 pb-3">Exclusive Documentary Interviews</h1>
-        </div>
-        <div class="col" style="background-image: url('../assets/img/AAN.avif'); background-size: cover; background-position: center; height: 470px"></div>
-        <div class="col-md-4 p-5">
-            <h1 class="border-top border-success border-2 text-end pt-3 pb-3">B2B, G2G, and G2B Engagements</h1>
-            <h1 class="border-top border-success border-2 text-end pt-3 pb-3">Exclusive Publication</h1>
-            <h1 class="border-top border-success border-2 text-end pt-3 pb-3">Strategic consultancy and capacity building</h1>
-            <h1 class="border-top border-success border-2 text-end pt-3 pb-3">Tailored Social Media and Digital Marketing campaigns</h1>
-            <h1 class="border-top border-success border-2 text-end pt-3 pb-3">Regional and International Media Outreach</h1>
-        </div>
-    </div>
-</section>
 
 <section class="py-5 p-5" style="color: #2d632d;">
                 <div><img src="../assets/img/IMG_4875.avif" class="" style="height: auto; width: 100%" /></div>
     <button class="mt-5" style="background-color: #d09c47; color: white; border-radius: 24px; padding: 10px 20px; border: none;">
-        <a href="#" class="text-black text-1xl pr-4 pl-4" style="text-decoration: none">Our Leadership</a>
+        <a href="#leadership" class="btn btn-primary" style="text-decoration: none">Our Leadership</a>
     </button>
 
 </section>
@@ -107,7 +75,7 @@
 <section class="p-5" style="color: #2d632d;">
     <div class="row justify-content-between align-items-center">
                 <div class="col-md-7">
-            <h1 class="py-5 fw-bold" style="font-size: 7rem">Our Leadership</h1>
+            <h1 class="py-5 fw-bold" style="font-size: 7rem" id="leadership">Our Leadership</h1>
             <h2 class="py-5 fw-bold fs-1">Meet our leaders from across the continent.</h1>
 
         <p class="ms-auto">Our team is composed of passionate, dedicated professionals from diverse backgrounds, 
@@ -121,7 +89,7 @@
 </div>
     </div>
     <button class="mt-5 align-middle" style="background-color: #d09c47; color: white; border-radius: 24px; padding: 10px 20px; border: none;">
-        <a href="#" class="text-black text-1xl pr-4 pl-4" style="text-decoration: none">Get in touch!</a>
+        <a href="{{route('contact')}}#get-in-touch" class="btn btn-primary" style="text-decoration: none">Get in touch!</a>
     </button>
     
 </section>

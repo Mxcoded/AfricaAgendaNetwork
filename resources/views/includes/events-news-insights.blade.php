@@ -1,4 +1,4 @@
-<section class="events-news-insights-section py-5" style="background-color: #dce4db;">
+<section class="events-news-insights-section py-5" style="background-color: #dce4db;" id="events-news-insights">
     <div class="container-fluid">
         <h2 class="text-center mb-5 fw-bold" style="color: #1a3c34;">Events, News & Insights</h2>
         <p class="text-center mb-5">Stay updated with our latest events, news, and expert insights on African development.</p>

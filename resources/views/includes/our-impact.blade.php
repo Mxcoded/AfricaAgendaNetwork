@@ -1,4 +1,4 @@
-<section class="our-impact-section py-5" style="background-color: rgb(208,156,71);">
+<section class="our-impact-section py-5" style="background-color: #D09C47;" id="our-impact">
     <div class="container-fluid">
         <h2 class="text-center mb-5 fw-bold" style="color: #1a3c34;">Our Impact</h2>
         <p class="text-center mb-5">Making a difference through measurable results and transformative initiatives across Africa.</p>
