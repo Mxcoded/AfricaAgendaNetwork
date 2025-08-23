@@ -12,5 +12,9 @@ Route::post('/contact-submit', [HomeController::class, 'contactSubmit'])->name('
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy-policy');
 Route::post('newsletter/subscribe', [HomeController::class, 'newsletterSubscribe'])->name('newsletter.subscribe');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('image/{filename}', 'HomeController@displayImage')->name('image.displayImage');
+
+Route::get('/AllImage/{filename}',[HomeController::class, 'getResponseImage'])->name('AllImage');
+
 // Route::get('/newsandinsights', [HomeController::class, 'NewsAndInSights'])->name('newsandinsights');
 
