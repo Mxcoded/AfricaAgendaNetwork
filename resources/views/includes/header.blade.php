@@ -1,6 +1,6 @@
 <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg" style="color: #2d632d;">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="/">
                     <img src="{{ asset('assets/img/africa agenda logo.avif') }}" alt="Africa Agenda Network Logo">
                 </a>
@@ -8,25 +8,25 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav" >
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link {{ request()->routeIs('about') ? 'active' : '' }}" href="{{ route('about') }}">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Service</a>
+                            <a class="nav-link {{ request()->routeIs('our-services') ? 'active' : '' }}" href="{{ route('our-services') }}">Our Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery and Insights</a>
+                            <a class="nav-link {{ request()->routeIs('gallery') ? 'active' : '' }}" href="{{ route('gallery') }}">Gallery and Insights</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">AAN DATA HUB</a>
+                            <a class="nav-link {{ request()->routeIs('data-hub') ? 'active' : '' }}" href="{{ route('data-hub') }}">AAN DATA HUB</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact Us</a>
                         </li>
                     </ul>
                 </div>

@@ -1,4 +1,4 @@
-<section class="get-in-touch-section py-5">
+<section class="get-in-touch-section py-5" style="background-color: #D09C47" id="get-in-touch">
     <div class="container-fluid">
         <h2 class="text-center mb-5 fw-bold" style="color: #1a3c34;">Get in Touch with Us</h2>
         <p class="text-center mb-5">Get involved with AAN, sign up for our newsletter and stay informed about upcoming
