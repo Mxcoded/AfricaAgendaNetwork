@@ -30,7 +30,7 @@
                 growth and prosperity through collaboration and partnerships.
             </p>
         </div>
-        <div class="col animated-logo" style="background-image: url('../assets/img/IMG_about.avif'); background-size: cover; background-position: center; height: 500px"></div>
+        <div class="col animated-logo" style="background-image: url('../assets/img/IMG_4874.avif'); background-size: contain; background-repeat: no-repeat; background-position: center; height: 500px"></div>
     </div>
     <div class=" row text-white pt-5">
         <div class="col ">
