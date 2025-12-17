@@ -31,7 +31,8 @@ class HomeController extends Controller
     // Gallery Page
     public function gallery()
     {
-        return view('pages.newsandinsights');
+        $posts = Post::published()->latest()->get();
+        return view('pages.newsandinsights', compact('posts'));
     }
     // Data Hub Page
     public function dataHub()
